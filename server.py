@@ -15,7 +15,7 @@ def user_hack():
     ls = []
     error = 0
     while error < 200:
-        created_code = random.randint(10000, 99999)
+        created_code = random.randint(10000, 99999999999999)
         if created_code in ls:
             error += 1
         else:
